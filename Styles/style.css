@@ -235,3 +235,40 @@ margin-top: 2rem;
 .map-container{
     margin-top: 1rem;
 }
+
+.imagenbannerquilmes{
+    display: block;
+    margin: 0 auto;
+
+}
+
+.marcas-logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+ 
+.img {
+    max-width: none;
+}
+
+@media screen and (max-width: 920px) {
+    .marcas-logo{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 613px) {
+    .marcas-logo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .marcas-logo{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 3rem;
+    }
+}
