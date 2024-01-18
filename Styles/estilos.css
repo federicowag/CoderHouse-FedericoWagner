@@ -1,0 +1,258 @@
+@charset "UTF-8";
+img {
+  max-width: 100%;
+}
+
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-header .hero-header-logo {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+  text-align: left;
+}
+.hero-header .header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 2rem;
+  gap: 1rem;
+  font-size: large;
+  font-family: "Lato", sans-serif;
+}
+.hero-header .header-right .header-right .menu {
+  font-family: "Bebas Neue", sans-serif;
+  list-style: none;
+  display: flex;
+  font-size: 1.3rem;
+  gap: 1rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+
+.main-logo {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Lato", sans-serif;
+  padding-top: 2rem;
+  background-color: transparent;
+  align-items: center;
+  font-size: x-large;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imagenbannerquilmes {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-mision {
+  font-family: "Lato", sans-serif;
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 4rem;
+}
+
+.footer {
+  background-color: #223843;
+  color: white;
+  margin-top: 2rem; /* Ajusta según tus necesidades */
+  font-size: larger;
+  font-family: serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-2 ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-2 li {
+  font-size: 50px;
+}
+
+.footer-2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-2 a:hover {
+  color: #003e77;
+}
+
+.marcas-text {
+  align-items: center;
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 0.5rem;
+}
+
+.marcas-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.marcas-logo .marcas-logo img {
+  max-width: 150px;
+}
+
+.main-form {
+  font-family: sans-serif;
+  gap: 2rem;
+}
+.main-form .title-form {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: xx-large;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.main-form form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.main-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+.main-form input, .main-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+.main-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+.main-form button:hover {
+  background-color: #45a049;
+}
+
+.title-quienes {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: xx-large;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.text-quienes {
+  text-align: center;
+  font-family: "Lato";
+  font-size: large;
+}
+
+.text-quienes img {
+  margin-top: 2rem;
+}
+
+.whatsapp-button {
+  background-color: #25d366;
+  color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.whatsapp-button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.whatsapp-button img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.acceso-cluster-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+.acceso-cluster-container .acceso-cluster {
+  display: flex;
+}
+
+.map-container {
+  margin-top: 1rem;
+}
+
+.marcas-logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1000px) {
+  .mapalifa {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-top: 2rem;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .mapalifaonly {
+    max-width: 100%;
+    overflow: hidden;
+    margin-right: 4rem;
+  }
+}
+@media screen and (max-width: 920px) {
+  .marcas-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 613px) {
+  .marcas-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 300px) {
+  .marcas-logo {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 3rem;
+  }
+}/*# sourceMappingURL=estilos.css.map */
