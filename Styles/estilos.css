@@ -1,4 +1,11 @@
-@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
 }
@@ -76,36 +83,6 @@ img {
   margin-top: 4rem;
 }
 
-.footer {
-  background-color: #223843;
-  color: white;
-  margin-top: 2rem; /* Ajusta según tus necesidades */
-  font-size: larger;
-  font-family: serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-2 ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.footer-2 li {
-  font-size: 50px;
-}
-
-.footer-2 a {
-  text-decoration: none;
-  color: white;
-}
-
-.footer-2 a:hover {
-  color: #003e77;
-}
-
 .marcas-text {
   align-items: center;
   text-align: center;
@@ -161,7 +138,7 @@ img {
   cursor: pointer;
 }
 .main-form button:hover {
-  background-color: #45a049;
+  background-color: #25d366;
 }
 
 .title-quienes {
@@ -183,7 +160,7 @@ img {
 }
 
 .whatsapp-button {
-  background-color: #25d366;
+  background-color: #4CAF50;
   color: #fff;
   padding: 30px;
   border-radius: 15px;
@@ -219,6 +196,35 @@ img {
 .marcas-logo {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer {
+  background-color: #223843;
+  color: white;
+  margin-top: 2rem;
+  font-size: larger;
+  font-family: serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-2 ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.footer-2 li {
+  font-size: 50px;
+}
+
+.footer-2 a {
+  text-decoration: none;
+  color: white;
+}
+.footer-2 a:hover {
+  color: #003e77;
 }
 
 @media screen and (max-width: 1000px) {

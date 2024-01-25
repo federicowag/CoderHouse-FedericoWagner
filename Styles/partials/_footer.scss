@@ -1,0 +1,26 @@
+.footer {
+    background-color: #223843;
+    color: white;
+    margin-top: 2rem; 
+    font-size: larger;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-2 ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+}
+.footer-2 li {
+    font-size: 50px; 
+}
+.footer-2 a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+        color: #003e77;
+    }
+}
